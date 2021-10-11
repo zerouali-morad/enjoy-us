@@ -1,0 +1,107 @@
+.game {
+    text-align: center;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr, 100px;
+    grid-template-rows: repeat(4, 75px);
+    row-gap: 20px;    
+}
+
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    color: #8CE3FF;
+    font-size: 50px;
+    margin: 20px
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+p, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    text-align: center;
+    width: 650px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #0B0A35;
+    border-radius: 10px;
+    transition: .2s ease;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 5px 10px #8CE3FF;
+}
+
+input[type=text]:hover {
+    background-color: #8CE3FF;
+    box-shadow: 0px 5px 10px #3B59C5;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+.game-button {
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    background: #0B0A35;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 5px 10px #8CE3FF;
+    transition: .1s;
+    
+}
+
+.game-button:active {
+    box-shadow: 0px 5px 10px #3B59C5;
+    transform: translateY(2px);
+
+    
+}
+
+.indication {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px #8CE3FF ;
+}
+
+.indication-lightmode {
+    color: black
+}
+
+
+.true, .display-object {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+
+.display-object {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+.description--element {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important; 
+    background: linear-gradient( .25turn, #0B0A35 0%, #8F8EB4 100%);
+    margin: 4em 20%;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 0px 5px 20px #3B59C5;
+}

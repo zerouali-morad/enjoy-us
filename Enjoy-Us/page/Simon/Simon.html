@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">  
+    <title> Simon's Game</title> 
+    <!--<link rel="stylesheet" href="C:/wamp64/www/game/style.css">-->
+    <link rel="stylesheet" href="../Simon/simonstyle.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <audio id="noise1">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+    </audio>
+    <audio id="noise2">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+    </audio>
+    <audio id="noise3">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+    </audio>
+    <audio id="noise4">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+    </audio>
+</head>
+
+<body>
+<div class="simon">
+  <div id="greenbutton" class="button"></div>
+  <div id="redbutton" class="button"></div>
+  <div id="yellowbutton" class="button"></div>
+  <div id="bluebutton" class="button"></div>
+  <div id="center">
+    <div id="textTitle">Simon</div>
+    <div id="counterbutton">
+      <div id="count">
+        <div id="counterdisplay">--</div>
+      </div>
+      <div id="countText">Count</div>
+    </div>
+      <!--<div id="startButton"></div>-->
+      <div id="startButton"><button><strong>START</strong></button></div>
+    </div>
+  </div>
+</div>
+<script src="../Simon/simonindex.js"></script>
+</body>
+</html>

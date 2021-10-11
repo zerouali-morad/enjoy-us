@@ -1,0 +1,261 @@
+.game {
+    text-align: center;
+    width: auto;
+    
+}
+
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    color: #8CE3FF;
+    font-size: 50px;
+    margin: 20px
+}
+
+h2 {
+    font-family: 'Londrina Solid', cursive;
+    position: absolute;
+    font-size: 30px;
+    z-index: 90;
+    left: 34em;
+    top:6.8em;
+    color:#791313 ;
+    background-color: aliceblue;
+    border-radius: 2px;
+    padding:10px;
+    box-shadow: 0px 2px 16px  #8CE3FF 
+}
+
+p, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+.game-button {
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    background: #0B0A35;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 5px 10px #8CE3FF;
+    transition: .1s;
+    
+}
+
+
+
+.indication {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px #8CE3FF ;
+}
+
+.indication-lightmode {
+    color: black
+}
+
+.true {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px yellow;
+}
+#mltbj{
+    display:inline;
+    position: absolute;
+    left:15%;
+    top:13.50%;
+    height: 900px;
+    width:932.41px;
+    margin: 4em 10%;
+    text-align: center;
+    z-index: 0;
+}
+#batman{
+    width: 1250px;
+    height: 850px;
+    border-radius: 2%;
+    box-shadow: 0px 5px 20px #3B59C5;
+      
+}
+#description{
+    background: none;
+    margin: 4em 20%;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: none;
+}
+#jeudecarte{
+    position: absolute;
+    z-index:2;
+    left: 10%;
+    top: 30%;
+    grid-column-start: 2;
+    display: flex;
+    flex-wrap: enveloppement;
+    align-content: flex-start;
+    padding: 10px;
+    display: none;
+    
+    
+}
+.pioche {
+    position:absolute;
+    z-index: 3;
+    left:20px;
+    top:2%;
+
+}
+.croupier{
+    position: absolute;
+    right:5%;
+    z-index: 4;
+    top:85%;
+    font-size:18px;
+    border: 2px solid #791313;
+    background-color: #791313;
+    border-radius: 2px;
+    color:bisque;
+    box-shadow: 0px 2px 16px #8CE3FF;
+
+}
+.Joueur1{
+    position: absolute;
+    left:20%;
+    z-index:5;
+    top:85%;
+    font-size: 18px;
+    border: 2px solid #791313;
+    background-color: #791313;
+    border-radius: 2px;
+    color:bisque;
+    box-shadow: 0px 2px 16px  #8CE3FF ;
+}
+.play-control{
+    position: absolute;
+    z-index: 6;
+    left: 51%;
+    top: 85%;
+    
+    
+}
+#cartecroupier{
+    font-family: 'Londrina Solid', cursive;
+    position: absolute;
+    left:42em;
+    top:35%;
+    z-index: 7;
+    display: inline-flex;
+    width: 50px;
+    height: 150px;
+
+}
+#cartejoueur1{
+    font-family: 'Londrina Solid', cursive;
+    position: absolute;
+    left:6em;
+    top:35%;
+    z-index: 8;
+    display: inline-flex;
+    width: 50px;
+    height: 150px;
+}
+#gagné{
+    font-family: 'Londrina Solid', cursive;
+    position:absolute;
+    z-index: 19;
+    top: 70%;
+    left:55%;
+    font-size:55px;
+    color: #791313;
+    border: 1px solid #0B0A35;
+    background-color: aliceblue;
+    border-radius: 2px;
+    
+}
+#perdu{
+    font-family: 'Londrina Solid', cursive;
+    position:absolute;
+    z-index: 19;
+    top: 70%;
+    left:55%;
+    font-size:55px;
+    color: #791313;
+    border: 1px solid #0B0A35;
+    background-color: aliceblue;
+    border-radius: 2px;
+    
+    
+}
+#playhitcroupier1{
+    position: absolute;
+    z-index: 50;
+    left: 13.5em;
+    top: 45px;
+    font-size: 18px;
+
+}
+#playhitjoueur1{
+    position: absolute;
+    z-index: 70;
+    left: -16.1em;
+    top: 45px;
+    font-size: 18px;
+
+}
+#playstart{
+    position: absolute;
+    z-index: 71;
+    left: 37em;
+    top: 45px;
+    font-size: 18px;
+}
+#playstandcroupier{
+    position: absolute;
+    z-index: 71;
+    left: 22.5em;
+    top: 45px;
+    font-size: 18px;
+}
+
+#playstandjoueur1{
+    position: absolute;
+    z-index: 71;
+    left: -7em;
+    top: 45px;
+    font-size: 18px;
+}
+#playhitcroupier2{
+    position: absolute;
+    z-index: 71;
+    left: 16.5em;
+    top: 45px;
+    font-size: 18px;
+}
+#playhitcroupier3{
+    position: absolute;
+    z-index: 71;
+    left: 19.5em;
+    top: 45px;
+    font-size: 18px;
+}
+#playhitjoueur2{
+    position: absolute;
+    z-index: 70;
+    left: -13.1em;
+    top: 45px;
+    font-size: 18px;
+
+}
+#playhitjoueur3{
+    position: absolute;
+    z-index: 70;
+    left: -10.1em;
+    top: 45px;
+    font-size: 18px;
+
+}

@@ -1,0 +1,142 @@
+body {
+  background-color: #161550;
+}
+
+.simon {
+	position:relative;
+	width:440px;
+	height:440px;
+	margin:0 auto;
+  margin-top: 200px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0px 0px 150px black;
+}
+
+.button {
+	position:absolute;
+	width:190px;
+	height:190px;
+  margin: 20px;
+  pointer-events: none;
+}
+
+button {
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  padding: 7px;
+  top: 135px;
+  right: 60px;
+}
+
+#textTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px 0 0 0;
+}
+
+#redbutton {
+	top:0;
+	left:0;
+  box-shadow: inset 1px 1px 15px black;
+	background-color:rgb(230, 94, 116);
+	border-radius:100% 0 0 0;
+}
+
+#yellowbutton {
+	top:0;
+	right:0;
+  box-shadow: inset 1px 1px 15px black;
+	background-color:rgb(230, 177, 65);
+	border-radius:0 100% 0 0 ;
+}
+#bluebutton{
+	bottom:0;
+	left:0;
+  box-shadow: inset 1px 1px 15px black;
+	background-color:rgb(41, 132, 216);
+	border-radius:0 0 0 100%;
+}
+#greenbutton {
+	bottom:0;
+	right:0;
+  box-shadow: inset 1px 1px 15px black;
+	background-color:rgb(72, 199, 171);
+	border-radius:0 0 100% 0 ;
+}
+#center {
+  position:absolute;
+  box-shadow: inset 1px 1px 15px black;
+  background-color:white;
+  border: 15px solid black;
+	width:185px;
+	height:185px;
+	top:113px;
+	left:113px;
+	border-radius:50%;
+}
+#textTitle {
+  height: 70px;
+  line-height: 90px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+
+#counterbutton{
+  position:relative;
+  right: -67px;
+  height: 50px;
+  width: 50.3px;
+}
+
+#count {
+  border: solid 3px black;
+  border-radius: 20%;
+  height: 50%;
+  background: rgb(255, 123, 0);
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#countText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 30%;
+  margin: 2px 5px 0px 6px;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#displayText {
+  opacity: 0.3;
+}
+
+/*#startButton {
+  box-shadow: inset 1px 1px 5px black; 
+  border: solid 3px black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 45px 0px 5px 21px;
+  background: rgb(255, 0, 0);
+  font-size: 20px;
+  line-height: 17px;
+
+}*/
+
+#startText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 30%;
+  margin: -5px 20px 0px 22px;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

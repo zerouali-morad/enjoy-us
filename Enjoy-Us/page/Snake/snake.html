@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesnake.css">
+    <script src="jsnake.js" defer></script>
+    
+    <title>Snake - EnjoysUs</title>
+</head>
+<body>
+    <header>
+        <div class="title--elements">
+        <figure>
+            <img src="../../img/logo.png" alt="">
+        </figure>
+        <h1><a href="../../index.html" class="titre">Enjoy Us</a></h1>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+        <section>
+            <div class="left-bar">
+                <ul id="left-items" class="left-items-container">
+                    <li>
+                        <form action="../../index.html">
+                            <button class="button-home">
+                                <img src="../../img/logo_home.png" alt="">
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="description--element">
+                <button class="replay">Replay ? You can choose another level</button>
+                <h2>Score :
+                    <span id="score">0</span>
+                </h2>
+                <canvas id="boardsnake" width="400" height="400"></canvas>
+                <div class="buttons">
+                    <button class="level1">Level 1</button>
+                    <button class="level2">Level 2</button>
+                    <button class="level3">Level 3</button>
+                </div>   
+            </div>
+        </section>
+        </div>
+    </main>
+</body>

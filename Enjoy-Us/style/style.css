@@ -1,0 +1,254 @@
+body {
+    background: linear-gradient(#161550, #09072f);
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-lightmode {
+    background: #FFFDF7;
+    color:#3B59C5
+}
+
+/* HEADER */
+
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    color: #8CE3FF;
+    font-size: 60px;
+}
+
+.h1-lightmode {
+    color: #3B59C5;
+}
+
+.header-elements > figure > img {
+    padding-right: 20px;
+    height: 60px;
+    width: auto;
+}
+
+.header-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+/* HEADER > NAV */ 
+
+nav {
+    margin-top: 3em;
+}
+
+.ul-menu--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 10%;
+}
+
+.button-list-items--menu {
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0px 5px 0px;
+    background-color: #8F8EB4;
+    cursor: pointer;
+    outline: none;
+    transition: .1s;
+    box-shadow: 0px 5px 10px #3B59C5;
+}
+
+.button-list-items--menu-lightmode {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px 10px #3B59C5;
+}
+
+.button-list-items--menu:hover {
+    background-color: #8CE3FF;
+    box-shadow: 0px 0px 15px #8CE3FF;
+}
+
+.button-list-items--menu:active {
+    transform: translateY(2px);
+    box-shadow: #3B59C5;
+}
+
+.description--element {
+    display: flex;
+    align-items: center;
+    background: linear-gradient( .25turn, #0B0A35 0%, #8F8EB4 100%);
+    margin: 4em 20%;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 0px 5px 20px #3B59C5;
+}
+
+.description--element-lightmode {
+    background: linear-gradient( .25turn, #FFF3D0 0%, white 100%  );
+    box-shadow: 0px 10px 20px #161550
+}
+
+
+.title--elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.a-lightmode {
+    color: black;
+}
+
+.left-items-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 125px;
+    height: 500px;
+    margin-top: 4em;
+    background: #8F8EB4;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 5px 10px black;
+    transition: .2s;
+}
+
+.left-items-container:hover {
+    background-color: #8CE3FF;
+    box-shadow: 0px 0px 10px #8CE3FF;
+}
+
+.left-items-container-lightmode {
+    background: #FFF3D0;
+    color: black;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+
+.button-home {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border-radius: 100%;
+    transition: .1s;
+}
+
+.button-light {
+    height: 50px;
+    width: 50px;
+    color:#FFF3D0;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    border-radius: 100%;
+    transition: .1s;
+    box-shadow: 0px 0px 10px white;
+}
+
+.button-home:active {
+    box-shadow: 0px 5px 10px #3B59C5;
+    transform: translateY(2px);
+
+    
+}
+
+.button-list-items--menu {
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    background-color: #8F8EB4;
+    cursor: pointer;
+    outline: none;
+    transition: .2s;
+    box-shadow: 0px 5px 10px #3B59C5;
+}
+
+.button-list-items--menu-lightmode {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px 10px #3B59C5;
+}
+
+.button-list-items--menu:hover {
+    background-color: #8CE3FF;
+    box-shadow: 0px 0px 15px #8CE3FF;
+}
+
+.button-list-items--menu:active {
+    transform: translateY(2px);
+    box-shadow: #3B59C5;
+}
+
+.game-icon {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.text-description {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 2em;
+    line-height: 1.5em;
+    text-align: justify;
+    overflow: hidden;
+    width: 350px;
+}
+
+.text-description-lightmode {
+    color: black;
+}
+
+.game-logo-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 2em;
+}
+
+.game-logo-description > img {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.play-button {
+    position: relative;
+    left: 50px;
+}
+
+.img-button {
+    width: 40px;
+    height: 40px;
+}

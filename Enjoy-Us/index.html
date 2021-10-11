@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>EnjoysUs</title>
+</head>
+<body>
+    <!-- HEADER DE LA PAGE -->
+    <!-- CONTIENT LA LISTE POUR LA NAVIGATION SUR LE SITE-->
+    <header>
+        <section class="header-elements">
+            <figure>
+                <img src="img/logo.png" alt="logo-enjoysUs">
+            </figure>
+            <h1 id="title">Enjoy Us</h1>
+        </section>
+        <nav>
+            <ul class="ul-menu--container">
+                <li>
+                    <button  id="game1" onclick="gameDescription(game1)" class="button-list-items--menu" value="Snake">
+                        <figure>
+                            <img class="game-icon" src="img/LogoSnake 1.png" alt="Snake Logo">
+                        </figure>
+                      Snake
+                    </button>
+                    <a href="page/Snake/snake.html"></a>
+                </li>
+                <li>
+                    <button id="game2" onclick="gameDescription(game2)" class="button-list-items--menu">
+                        <figure>
+                            <img src="img/LogoSimon 1.png" alt="Simon Logo" class="game-icon">
+                        </figure>
+                        Simon
+                    </button><a href="page/Simon/Simon.html"></a>
+                </li>
+                <li>
+                    <button id="game3" onclick="gameDescription(game3)" class="button-list-items--menu">
+                        <figure>
+                            <img src="img/LogoBlackJack 1.png" alt="BlackJack Logo">
+                        </figure>
+                        BlackJack
+                    </button><a href="page/BlackJack/blackjack1.html"></a>
+                </li>
+                <li>
+                    <button id="game4" onclick="gameDescription(game4)" class="button-list-items--menu">
+                        <figure>
+                            <img src="img/IconeJustePrix 1.png" alt="JustePrix Logo">
+                        </figure>
+                        JustePrix
+                    </button><a href="page/jeux4.html"></a>
+                </li>
+                <li>
+                    <button id="game5" onclick="gameDescription(game5)" class="button-list-items--menu">
+                        <figure>
+                            <img class="img-button" src="img/pencil.png" alt="JustePrix Logo">
+                        </figure>
+                        Pictionary
+                    </button><a href="page/Pictionary/pict-html.html"></a>
+                </li>
+                <li>
+                    <button id="about" onclick="gameDescription(about)" class="button-list-items--menu">About</button>
+                    <a href="page/about.html"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN CONTENT DE LA PAGE-->
+    <!-- CONTIENT LA PARTIE EXPLICATIVE DES JEUX ET LA BAR SUR LE COTE -->
+    <main>
+        <div class="main-container">
+        <section>
+            <div class="left-bar">
+                <ul id="left-items" class="left-items-container">
+                    <li>
+                    <button class="button-home">
+                        <img src="img/logo_home.png" alt="home logo">
+                    </button>
+                    </li>
+                    <li>
+                        <button id="light" class="button-light" onclick="lightMode()"></button></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div id="description" class="description--element">
+                <div>
+                    <p id="text-des" class="text-description">Incarnez le celebre serpent “Snake” dans une interface moderne. Mangez le plus de nourriture possible en faisant attention à ne pas vous mangez ou de ne pas vous prendre de mur :)</p>
+                    <form id="form-submit" action="page/jeux1.html">
+                        <button class="button-list-items--menu play-button">Jouez!</button>
+                    </form>
+                </div>
+                <figure class="game-logo-description">
+                    <img id="game-icon-description" src="img/LogoSnake 2.png" alt="Snake Logo">
+                </figure>
+            </div>
+        </section>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
